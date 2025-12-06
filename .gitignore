@@ -17,6 +17,14 @@ logs
 .env.*
 .firebase/
 firebase-debug.log
+firebase-debug.*.log
+
+# Firebase config (keep project-specific settings out of VCS)
+firebase.json
+firestore.rules
+firestore.indexes.json
+apphosting.yaml
+.firebaserc
 
 # Credentials
 service-account.json
